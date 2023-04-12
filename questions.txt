@@ -1,0 +1,167 @@
+For Easy Level
+
+        [
+            'question_name' => 'What is the Capital Of India?',
+            'question_option1' => 'Gujrat',
+            'question_option1' => 'New Delhi',
+            'question_option1' => 'Uttar Pradesh',
+            'question_option1' => 'Maharastra',
+            'level' => 'Easy',
+            'answer'=>'New Delhi',
+        ]
+
+        
+            [
+            'question_name' => 'The national river of India?',
+            'question_option1' => 'Kaveri',
+            'question_option2' => 'Narmda',
+            'question_option3' => 'Yamuna',
+            'question_option4' => 'Ganga',
+            'level' => 'Easy',
+            'answer'=>'Ganga',
+            ]
+        
+            [
+            'question_name' => 'What is the Capital Of Uttar Pradesh?',
+            'question_option1' => 'Chennai',
+            'question_option2' => 'Noida',
+            'question_option3' => 'Lucknow',
+            'question_option4' => 'Kanpur',
+            'level' => 'Easy',
+            'answer'=>'Lucknow',
+            ]
+        
+            [
+            'question_name' => 'What is the National Animal?',
+            'question_option1' => 'Tiger',
+            'question_option2' => 'Lion',
+            'question_option3' => 'Peacock',
+            'question_option4' => 'Rabbit',
+            'level' => 'Easy',
+            'answer'=>'Tiger',
+            ]
+        
+            [
+            'question_name' => 'Which is the national fruit of India?',
+            'question_option1' => 'Apple',
+            'question_option2' => 'Grapes',
+            'question_option3' => 'Banana',
+            'question_option4' => 'Mango',
+            'level' => 'Easy',
+            'answer'=>'Mango',
+        ]
+
+
+
+        For Medium Level
+
+
+        
+            [
+            'question_name' => 'What is the Native Language Of India?',
+            'question_option1' => 'Hindi',
+            'question_option1' => 'English',
+            'question_option1' => 'Urdu',
+            'question_option1' => 'Telgu',
+            'level' => 'Medium',
+            'answer'=>'Hindi',
+        ]
+        DB::table('medium_level')->insert(
+            [
+            'question_name' => 'Which is the most widely spoken native and non-native language in the world?',
+            'question_option1' => 'Hindi',
+            'question_option2' => 'English',
+            'question_option3' => 'Kannad',
+            'question_option4' => 'Telgu',
+            'level' => 'Medium',
+            'answer'=>'English',
+        ]);
+        DB::table('medium_level')->insert(
+            [
+            'question_name' => 'Who is the world’s fastest land animal?',
+            'question_option1' => 'Cheetah',
+            'question_option2' => 'Lion',
+            'question_option3' => 'Sher',
+            'question_option4' => 'Rabbit',
+            'level' => 'Medium',
+            'answer'=>'Cheetah',
+        ]);
+        DB::table('medium_level')->insert(
+            [
+            'question_name' => 'Who gave the slogan Do or Die?',
+            'question_option1' => 'Mahatma Gandhi',
+            'question_option2' => 'Pt. Jawahar Lal Nehru',
+            'question_option3' => 'Indira Gandhi',
+            'question_option4' => 'Subhash Chandra Bosh',
+            'level' => 'Medium',
+            'answer'=>'Mahatma Gandhi',
+        ]);
+        
+            [
+            'question_name' => 'Which is the national Game of India?',
+            'question_option1' => 'Hockey',
+            'question_option2' => 'Cricket',
+            'question_option3' => 'Carrom',
+            'question_option4' => 'Kabaddi',
+            'level' => 'Medium',
+            'answer'=>'Hockey',
+        ]
+
+
+        For Hard Level
+
+        DB::table('hard_level')->insert(
+            [
+            'question_name' => 'Which was the first country to use paper money?',
+            'question_option1' => 'Pakistan',
+            'question_option1' => 'USA',
+            'question_option1' => 'India',
+            'question_option1' => 'China',
+            'level' => 'Hard',
+            'answer'=>'China',
+        ]);
+        DB::table('hard_level')->insert(
+            [
+            'question_name' => 'Which month of the year has the least number of days?',
+            'question_option1' => 'January',
+            'question_option2' => 'February',
+            'question_option3' => 'March',
+            'question_option4' => 'April',
+            'level' => 'Hard',
+            'answer'=>'February',
+        ]);
+        DB::table('hard_level')->insert(
+            [
+            'question_name' => 'What is the National song of India?',
+            'question_option1' => 'No option',
+            'question_option2' => 'Other',
+            'question_option3' => 'Jan Gan Man',
+            'question_option4' => 'Vande Mataram',
+            'level' => 'Hard',
+            'answer'=>'Vande Mataram',
+        ]);
+        
+            [
+            'question_name' => 'Which is the principal source of energy for earth?',
+            'question_option1' => 'The Sun',
+            'question_option2' => 'Moon',
+            'question_option3' => 'Mangal',
+            'question_option4' => 'Other',
+            'level' => 'Hard',
+            'answer'=>'The Sun',
+        ]
+        
+            [
+            'question_name' => 'Which is the longest river in the world?',
+            'question_option1' => 'Nile',
+            'question_option2' => 'Saraswati',
+            'question_option3' => 'Kaveri',
+            'question_option4' => 'Ganga',
+            'level' => 'Hard',
+            'answer'=>'Nile',
+        ]
+
+
+
+
+
