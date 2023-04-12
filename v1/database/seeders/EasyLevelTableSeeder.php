@@ -15,10 +15,10 @@ class EasyLevelTableSeeder extends Seeder
     {
         DB::table('easy_level')->insert([
             'question_name' => 'What is the Capital Of India?',
-            'question_option1' => 'Gujrat',
             'question_option1' => 'New Delhi',
-            'question_option1' => 'Uttar Pradesh',
-            'question_option1' => 'Maharastra',
+            'question_option2' => 'MP',
+            'question_option3' => 'Uttar Pradesh',
+            'question_option4' => 'Maharastra',
             'level' => 'Easy',
             'answer'=>'New Delhi',
 

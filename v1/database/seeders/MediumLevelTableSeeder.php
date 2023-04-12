@@ -17,9 +17,9 @@ class MediumLevelTableSeeder extends Seeder
             [
                 'question_name' => 'What is the Native Language Of India?',
                 'question_option1' => 'Hindi',
-                'question_option1' => 'English',
-                'question_option1' => 'Urdu',
-                'question_option1' => 'Telgu',
+                'question_option2' => 'English',
+                'question_option3' => 'Urdu',
+                'question_option4' => 'Telgu',
                 'level' => 'Medium',
                 'answer'=>'Hindi',
         ]);

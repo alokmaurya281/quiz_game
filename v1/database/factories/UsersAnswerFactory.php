@@ -17,7 +17,7 @@ class UsersAnswerFactory extends Factory
     public function definition(): array
     {
         return [
-            'answer'=>fake()->answer(),
+            'answer'=>fake()->text(),
         ];
     }
 }

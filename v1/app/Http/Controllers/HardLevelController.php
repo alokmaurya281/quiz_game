@@ -11,6 +11,8 @@ use Illuminate\Support\Facades\DB;
 
 class HardLevelController extends Controller
 {
+
+  //  For creating a user
     public function create_user(){
         $username = Str::random(10);
         $create_user = DB::table('users')->insertGetId([
@@ -20,13 +22,14 @@ class HardLevelController extends Controller
 
     }
 
-    
+     //For Main Medium Level View with some Questions 
     public function HardLevel($id){
         $question = DB::table('hard_level')->where('id',$id)->get();
         
         return view('hard_level')->with('data',[ 'question'=>$question]);
     }
    
+    // For Submitting The Question after 30 seconds it will autosubmit and give us report
     public function SubmitQuestion(Request $request){
         $insert = DB::table('users_answer')->insert([
             'question_id'=>$request->question_id,

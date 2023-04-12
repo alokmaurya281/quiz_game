@@ -17,9 +17,9 @@ class HardLevelTableSeeder extends Seeder
             [
             'question_name' => 'Which was the first country to use paper money?',
             'question_option1' => 'Pakistan',
-            'question_option1' => 'USA',
-            'question_option1' => 'India',
-            'question_option1' => 'China',
+            'question_option2' => 'USA',
+            'question_option3' => 'India',
+            'question_option4' => 'China',
             'level' => 'Hard',
             'answer'=>'China',
         ]);

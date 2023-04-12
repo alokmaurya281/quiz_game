@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class QuestionAnswer extends Model
+class MediumLevel extends Model
 {
     use HasFactory;
     protected $fillable = [
@@ -15,6 +15,7 @@ class QuestionAnswer extends Model
         'question_option3',
         'question_option4',
         'level',
-        'answer',
+        'answer'
+
     ];
 }

@@ -11,6 +11,8 @@ use Illuminate\Support\Facades\DB;
 
 class MediumLevelController extends Controller
 {
+
+    // For Creating a temp user for which i can track
    
     public function create_user(){
         $username = Str::random(10);
@@ -21,12 +23,15 @@ class MediumLevelController extends Controller
 
     }
 
+    //For Main Medium Level View with some Questions 
     
     public function MediumLevel($id){
         $question = DB::table('medium_level')->where('id',$id)->get();
         
         return view('medium_level')->with('data',[ 'question'=>$question]);
     }
+
+    // For Submitting The Question after 30 seconds it will autosubmit and give us report
    
     public function SubmitQuestion(Request $request){
         $insert = DB::table('users_answer')->insert([
